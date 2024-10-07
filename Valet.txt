@@ -1,0 +1,15 @@
+public class Valet implements HotelService{
+
+    @Override
+    public void pickUpVehicle(String plateNum){
+        System.out.println("Valet is picking up a vehicle with plate number: " + plateNum);
+    }
+
+    @Override
+    public void cleanRoom(int roomNum){
+    }
+
+    @Override
+    public void reqCart(int numOfCarts){
+    }
+}

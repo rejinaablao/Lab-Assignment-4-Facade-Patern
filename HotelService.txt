@@ -1,0 +1,5 @@
+public interface HotelService{
+    void pickUpVehicle(String plateNum);
+    void cleanRoom(int roomNum);
+    void reqCart(int numOfCarts);
+}
